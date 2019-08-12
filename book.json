@@ -1,7 +1,7 @@
 {
-    "title": "GitBook 操作指南",
+    "title": "Go 工程化编程",
     "author": "JayL",
-    "description": "GitBook 边实践边记录的结果",
+    "description": "Go 工程化编程实录",
     "language": "zh-Hans",
     "links": {
         "sharing": {
@@ -61,7 +61,7 @@
             "showByDefault": true
         },
         "github": {
-            "url": "https://github.com/liujianping"
+            "url": "https://github.com/liujianping/go-programming-in-engineering-way"
         },
         "page-toc-button": {
             "maxTocDepth": 2,
