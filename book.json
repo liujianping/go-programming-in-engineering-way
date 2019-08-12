@@ -1,0 +1,71 @@
+{
+    "title": "GitBook 操作指南",
+    "author": "JayL",
+    "description": "GitBook 边实践边记录的结果",
+    "language": "zh-Hans",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "一艘慢船@GitDiG.com": "https://gitdig.com",
+            "@JayL": "https://github.com/liujianping"
+        }
+    },
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "plugins": [
+        "-copy-code-button",
+        "-expandable-chapters",
+        "splitter",
+        "tbfed-pagefooter",
+        "search-pro",
+        "-search",
+        "-lunr",
+        "-sharing",
+        "github",
+        "-page-toc",
+        "-page-toc-button",
+        "alerts",
+        "ancre-navigation",
+        "code",
+        "todo",
+        "custom-favicon",
+        "ga"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-141133293-1"
+        },
+        "favicon": "logo/logo.png",
+        "code": {
+            "copyButtons": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "GitDiG.com @2019",
+            "modify_label": "本文修订时间:",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "page-toc": {
+            "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4",
+            "position": "before-first",
+            "showByDefault": true
+        },
+        "github": {
+            "url": "https://github.com/liujianping"
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        }
+    }
+}
